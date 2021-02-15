@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Rota de generos
+Route::get('/generos', [UserController::class, 'index']);
+
+//rota de generos 2
+Route::resource('generos','ProductController');
