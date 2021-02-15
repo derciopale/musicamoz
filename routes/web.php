@@ -21,4 +21,4 @@ Route::get('/', function () {
 Route::get('/generos', [UserController::class, 'index']);
 
 //rota de generos 2
-Route::resource('generos','ProductController');
+Route::resource('generos','GeneroController');
