@@ -45,7 +45,7 @@ class GeneroController extends Controller
     }
    
     
-    public function show(Genero $generos)
+    public function show(Genero $genero)
     {
         return view('generos.show',compact('genero'));
     }
@@ -63,7 +63,7 @@ class GeneroController extends Controller
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Genero $product)
+    public function update(Request $request, Genero $genero)
     {
         $request->validate([
             'genero' => 'required',
@@ -79,7 +79,7 @@ class GeneroController extends Controller
     
     public function destroy(Genero $genero)
     {
-        $product->delete();
+        $genero->delete();
   
         return redirect()->route('generos.index')
                         ->with('success','Genero deleted successfully');

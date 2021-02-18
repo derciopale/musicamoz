@@ -1,3 +1,8 @@
+@extends('adminlte::page')
+
+@section('title', 'Generos')
+
+@section('content_header')
 @extends('generos.layout')
  
 @section('content')

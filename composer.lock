@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a16c3c541bd99241cab1c21ce8e83ac",
+    "content-hash": "371082218657946fe201ba5cfb8d4a0e",
     "packages": [
+        {
+            "name": "almasaeed2010/adminlte",
+            "version": "v3.1.0-rc",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColorlibHQ/AdminLTE.git",
+                "reference": "17aea0e4ef1491a0ae6c3aaa14e81803244b59f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/17aea0e4ef1491a0ae6c3aaa14e81803244b59f2",
+                "reference": "17aea0e4ef1491a0ae6c3aaa14e81803244b59f2",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Colorlib"
+                }
+            ],
+            "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 4",
+            "homepage": "https://adminlte.io/",
+            "keywords": [
+                "JS",
+                "admin",
+                "back-end",
+                "css",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/ColorlibHQ/AdminLTE/issues",
+                "source": "https://github.com/ColorlibHQ/AdminLTE/tree/v3.1.0-rc"
+            },
+            "time": "2020-11-25T10:51:19+00:00"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.0.2",
@@ -117,6 +160,50 @@
                 }
             ],
             "time": "2021-01-20T22:51:39+00:00"
+        },
+        {
+            "name": "dgvai/laravel-adminlte-components",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dgvai/laravel-adminlte-components.git",
+                "reference": "d0c91d51251f25278fba95dde378bc4fa82e33e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dgvai/laravel-adminlte-components/zipball/d0c91d51251f25278fba95dde378bc4fa82e33e2",
+                "reference": "d0c91d51251f25278fba95dde378bc4fa82e33e2",
+                "shasum": ""
+            },
+            "type": "laravel-package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "DGvai\\BladeAdminLTE\\BladeAdminLTEServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DGvai\\BladeAdminLTE\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jalal Uddin",
+                    "email": "dgvai@users.noreply.github.com"
+                }
+            ],
+            "description": "Laravel Blade Components For AdminLTE Bootstrap Admin Template",
+            "support": {
+                "issues": "https://github.com/dgvai/laravel-adminlte-components/issues",
+                "source": "https://github.com/dgvai/laravel-adminlte-components/tree/2.1.2"
+            },
+            "time": "2020-07-25T05:58:44+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
